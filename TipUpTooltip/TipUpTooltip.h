@@ -10,7 +10,7 @@
 
 //! Project version number for TipUpTooltip.
 FOUNDATION_EXPORT double TipUpTooltipVersionNumber;
-
+ 
 //! Project version string for TipUpTooltip.
 FOUNDATION_EXPORT const unsigned char TipUpTooltipVersionString[];
 
