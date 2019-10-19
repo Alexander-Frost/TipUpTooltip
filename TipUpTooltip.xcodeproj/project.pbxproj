@@ -7,16 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C49D3AF8235BB21D0081D765 /* ToolTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D3AF7235BB21D0081D765 /* ToolTip.swift */; };
+		C49D3B00235BB2FD0081D765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D3AFF235BB2FD0081D765 /* AppDelegate.swift */; };
+		C49D3B02235BB2FD0081D765 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D3B01235BB2FD0081D765 /* SceneDelegate.swift */; };
+		C49D3B04235BB2FD0081D765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D3B03235BB2FD0081D765 /* ViewController.swift */; };
+		C49D3B07235BB2FD0081D765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49D3B05235BB2FD0081D765 /* Main.storyboard */; };
+		C49D3B09235BB3000081D765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49D3B08235BB3000081D765 /* Assets.xcassets */; };
+		C49D3B0C235BB3000081D765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49D3B0A235BB3000081D765 /* LaunchScreen.storyboard */; };
+		C49D3B3F235BC2E50081D765 /* ToolTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D3B3D235BC2E50081D765 /* ToolTipView.swift */; };
+		C49D3B40235BC2E50081D765 /* ToolTipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49D3B3E235BC2E50081D765 /* ToolTipView.xib */; };
 		FA2719552353E497006266A5 /* TipUpTooltip.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2719532353E497006266A5 /* TipUpTooltip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C49D3AF7235BB21D0081D765 /* ToolTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolTip.swift; sourceTree = "<group>"; };
+		C49D3AFD235BB2FD0081D765 /* ToolTip-HSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToolTip-HSV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49D3AFF235BB2FD0081D765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C49D3B01235BB2FD0081D765 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C49D3B03235BB2FD0081D765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C49D3B06235BB2FD0081D765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49D3B08235BB3000081D765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49D3B0B235BB3000081D765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C49D3B0D235BB3000081D765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49D3B3D235BC2E50081D765 /* ToolTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolTipView.swift; sourceTree = "<group>"; };
+		C49D3B3E235BC2E50081D765 /* ToolTipView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToolTipView.xib; sourceTree = "<group>"; };
 		FA2719502353E497006266A5 /* TipUpTooltip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TipUpTooltip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2719532353E497006266A5 /* TipUpTooltip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipUpTooltip.h; sourceTree = "<group>"; };
 		FA2719542353E497006266A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C49D3AFA235BB2FD0081D765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA27194D2353E497006266A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -27,10 +54,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C49D3AFE235BB2FD0081D765 /* ToolTip-HSV */ = {
+			isa = PBXGroup;
+			children = (
+				C49D3AFF235BB2FD0081D765 /* AppDelegate.swift */,
+				C49D3B01235BB2FD0081D765 /* SceneDelegate.swift */,
+				C49D3B03235BB2FD0081D765 /* ViewController.swift */,
+				C49D3B05235BB2FD0081D765 /* Main.storyboard */,
+				C49D3B08235BB3000081D765 /* Assets.xcassets */,
+				C49D3B0A235BB3000081D765 /* LaunchScreen.storyboard */,
+				C49D3B0D235BB3000081D765 /* Info.plist */,
+			);
+			path = "ToolTip-HSV";
+			sourceTree = "<group>";
+		};
 		FA2719462353E497006266A5 = {
 			isa = PBXGroup;
 			children = (
 				FA2719522353E497006266A5 /* TipUpTooltip */,
+				C49D3AFE235BB2FD0081D765 /* ToolTip-HSV */,
 				FA2719512353E497006266A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				FA2719502353E497006266A5 /* TipUpTooltip.framework */,
+				C49D3AFD235BB2FD0081D765 /* ToolTip-HSV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,6 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				FA2719532353E497006266A5 /* TipUpTooltip.h */,
+				C49D3AF7235BB21D0081D765 /* ToolTip.swift */,
+				C49D3B3D235BC2E50081D765 /* ToolTipView.swift */,
+				C49D3B3E235BC2E50081D765 /* ToolTipView.xib */,
 				FA2719542353E497006266A5 /* Info.plist */,
 			);
 			path = TipUpTooltip;
@@ -66,6 +112,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		C49D3AFC235BB2FD0081D765 /* ToolTip-HSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49D3B0E235BB3000081D765 /* Build configuration list for PBXNativeTarget "ToolTip-HSV" */;
+			buildPhases = (
+				C49D3AF9235BB2FD0081D765 /* Sources */,
+				C49D3AFA235BB2FD0081D765 /* Frameworks */,
+				C49D3AFB235BB2FD0081D765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ToolTip-HSV";
+			productName = "ToolTip-HSV";
+			productReference = C49D3AFD235BB2FD0081D765 /* ToolTip-HSV.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FA27194F2353E497006266A5 /* TipUpTooltip */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA2719582353E497006266A5 /* Build configuration list for PBXNativeTarget "TipUpTooltip" */;
@@ -90,11 +153,16 @@
 		FA2719472353E497006266A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Alex;
 				TargetAttributes = {
+					C49D3AFC235BB2FD0081D765 = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					FA27194F2353E497006266A5 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -112,31 +180,112 @@
 			projectRoot = "";
 			targets = (
 				FA27194F2353E497006266A5 /* TipUpTooltip */,
+				C49D3AFC235BB2FD0081D765 /* ToolTip-HSV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C49D3AFB235BB2FD0081D765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D3B0C235BB3000081D765 /* LaunchScreen.storyboard in Resources */,
+				C49D3B09235BB3000081D765 /* Assets.xcassets in Resources */,
+				C49D3B07235BB2FD0081D765 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA27194E2353E497006266A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49D3B40235BC2E50081D765 /* ToolTipView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C49D3AF9235BB2FD0081D765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D3B04235BB2FD0081D765 /* ViewController.swift in Sources */,
+				C49D3B00235BB2FD0081D765 /* AppDelegate.swift in Sources */,
+				C49D3B02235BB2FD0081D765 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA27194C2353E497006266A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49D3B3F235BC2E50081D765 /* ToolTipView.swift in Sources */,
+				C49D3AF8235BB21D0081D765 /* ToolTip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		C49D3B05235BB2FD0081D765 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D3B06235BB2FD0081D765 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C49D3B0A235BB3000081D765 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D3B0B235BB3000081D765 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		C49D3B0F235BB3000081D765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97AS6JS382;
+				INFOPLIST_FILE = "ToolTip-HSV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hectorstevenvillasano.ToolTip-HSV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C49D3B10235BB3000081D765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97AS6JS382;
+				INFOPLIST_FILE = "ToolTip-HSV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hectorstevenvillasano.ToolTip-HSV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		FA2719562353E497006266A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -260,6 +409,7 @@
 		FA2719592353E497006266A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
@@ -276,6 +426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.weekend.TipUpTooltip;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +435,7 @@
 		FA27195A2353E497006266A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
@@ -308,6 +460,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C49D3B0E235BB3000081D765 /* Build configuration list for PBXNativeTarget "ToolTip-HSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D3B0F235BB3000081D765 /* Debug */,
+				C49D3B10235BB3000081D765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FA27194A2353E497006266A5 /* Build configuration list for PBXProject "TipUpTooltip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
